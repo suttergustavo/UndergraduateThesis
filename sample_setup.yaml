@@ -1,0 +1,184 @@
+name: "Cifar 10"
+dataset: 'Cifar 10'
+dataset_path: 'data/Cifar10'
+target_size: [299, 299]
+target_size_pixel_space: [32, 32]
+batch_size: 64
+verbose: true
+random_seed: null
+real_data:
+  gen_args:
+    rescale: 1/255
+  classes_dist:
+    "airplane": 504
+    "automobile": 504
+    "bird": 504
+    "cat": 504
+    "deer": 504
+    "dog": 504
+    "frog": 504
+    "horse": 504
+    "ship": 504
+    "truck": 504
+  repeat: false
+fake_data:
+  10:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 504
+      "automobile": 504
+      "bird": 504
+      "cat": 504
+      "deer": 504
+      "dog": 504
+      "frog": 504
+      "horse": 504
+      "ship": 504
+      "truck": 504
+    repeat: false
+  9:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 560
+      "bird": 560
+      "cat": 560
+      "deer": 560
+      "dog": 560
+      "frog": 560
+      "horse": 560
+      "ship": 560
+      "truck": 560
+    repeat: false
+  8:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 630
+      "cat": 630
+      "deer": 630
+      "dog": 630
+      "frog": 630
+      "horse": 630
+      "ship": 630
+      "truck": 630
+    repeat: false
+  7:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 720
+      "deer": 720
+      "dog": 720
+      "frog": 720
+      "horse": 720
+      "ship": 720
+      "truck": 720
+    repeat: false
+  6:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 840
+      "dog": 840
+      "frog": 840
+      "horse": 840
+      "ship": 840
+      "truck": 840
+    repeat: false
+  5:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 0
+      "dog": 1008
+      "frog": 1008
+      "horse": 1008
+      "ship": 1008
+      "truck": 1008
+    repeat: false
+  4:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 0
+      "dog": 0
+      "frog": 1260
+      "horse": 1260
+      "ship": 1260
+      "truck": 1260
+    repeat: false
+  3:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 0
+      "dog": 0
+      "frog": 0
+      "horse": 1680
+      "ship": 1680
+      "truck": 1680
+    repeat: false
+  2:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 0
+      "dog": 0
+      "frog": 0
+      "horse": 0
+      "ship": 2520
+      "truck": 2520
+    repeat: false
+  1:
+    gen_args:
+      rescale: 1/255
+      horizontal_flip: false
+    classes_dist:
+      "airplane": 0
+      "automobile": 0
+      "bird": 0
+      "cat": 0
+      "deer": 0
+      "dog": 0
+      "frog": 0
+      "horse": 0
+      "ship": 0
+      "truck": 5040
+    repeat: false
